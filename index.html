@@ -1,50 +1,21 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Recipes by gatoravi</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Recipes</h1>
-        <p class="header">Food :D</p>
-
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/gatoravi/recipes/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/gatoravi/recipes/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/gatoravi/recipes">View On GitHub</a></li>
-        </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/gatoravi">gatoravi</a></p>
-
-
-      </header>
-      <section>
-        <h1>
-<a id="recipes" class="anchor" href="#recipes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Recipes</h1>
-
-<h2>
-<a id="india" class="anchor" href="#india" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>India</h2>
-
-<ol>
-<li><a href="https://github.com/gatoravi/recipes/blob/master/india/pesarattu.md">Pesarattu</a></li>
-</ol>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
-</html>
+---
+layout: default
+---
+<div class="home">
+	<section>
+		<h2 class="smallcap">about</h2>
+		<p>Some interesting recipes!</p>
+	</section>
+	<section>
+		<h2 class="smallcap">posts</h2>
+		<ul class="post-list">
+			{% for post in site.posts limit:5 %}
+			<li>
+				<span>{{ post.date | date: "%b %d, %Y" }}</span>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
+	</section>
+</div>
