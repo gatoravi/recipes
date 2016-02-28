@@ -1,7 +1,7 @@
 # Site settings
 title: Avi's recipes
-baseurl: "/slim"
-url: "http://syaning.com"
+baseurl: ""
+url: "http://gatoravi.github.io/recipes"
 
 # Build settings
 markdown: redcarpet
