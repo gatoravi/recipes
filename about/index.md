@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
+title: About
+excerpt: "Recipes"
+modified: 2016-02-28T19:44:38.564948-04:00
 image:
   feature:
   credit:
   creditlink:
 ---
-Recipes to try out by Avi
+Recipes to try out put together by Avi.
