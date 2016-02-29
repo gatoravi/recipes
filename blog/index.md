@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Recipes
-excerpt: "Recipes"
+title:
+excerpt: ""
 search_omit: true
 ---
 
