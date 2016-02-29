@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Recipes
 excerpt: "Recipes"
 search_omit: true
 ---
