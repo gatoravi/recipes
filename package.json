@@ -1,13 +1,13 @@
 {
-  "name": "so-simple-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/so-simple-theme/",
+  "name": "Recipes",
+  "author": "Avi Ramu <avinash3003@yahoo.co.in>",
+  "homepage": "http://gatoravi.github.io/recipes/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/so-simple-theme.git"
+    "url": "git://github.com/gatoravi/recipes.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/so-simple-theme/issues"
+    "url": "https://github.com/gatoravi/recipes/issues"
   },
   "engines": {
     "node": ">= 0.10.0"

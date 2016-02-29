@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: So Simple Theme
+title: Recipes
 locale: en_US
-description: A simple and clean responsive Jekyll theme for words and photos.
-logo: site-logo.png
-url: //mmistakes.github.io/so-simple-theme
+description: Recipes
+logo:
+url: //gatoravi.github.io/recipes
 
 # Jekyll configuration
 
