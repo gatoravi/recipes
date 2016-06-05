@@ -13,7 +13,7 @@ date: 2016-06-05T15:00:58-04:00
 
 This recipe is from Radhi Ramu.
 
-###Ingredients
+### Ingredients
 
 - Onions - 1 big(Indian size)
 
@@ -35,7 +35,7 @@ This recipe is from Radhi Ramu.
 
 - Chilli powder
 
-###Procedure
+### Procedure
 
 1. Add all ingredients except Brinjal to a bowl.
 
