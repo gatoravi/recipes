@@ -14,16 +14,16 @@ date: 2016-06-05T15:00:58-04:00
 This recipe is from Radhi Ramu.
 
 ###Ingredients
-* Onions - 1 big(Indian size)
-* Tomatoes - 2 medium
-* Garlic 4-5 cloves
-* Curry leaves, finely chopped
-* Brinjal - 4, chop to stalk and cut at bottom to form plus shape
-* Coconut - 1/2, grind into paste
-* Tamarind - add to taste, soak in water
-* Turmeric powder
-* Salt
-* Chilli powder
+1. Onions - 1 big(Indian size)
+2. Tomatoes - 2 medium
+3. Garlic 4-5 cloves
+4. Curry leaves, finely chopped
+5. Brinjal - 4, chop to stalk and cut at bottom to form plus shape
+6. Coconut - 1/2, grind into paste
+7. Tamarind - add to taste, soak in water
+8. Turmeric powder
+9. Salt
+10. Chilli powder
 
 ###Procedure
 1. Add all ingredients except Brinjal to a bowl.
