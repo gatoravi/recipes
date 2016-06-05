@@ -14,6 +14,7 @@ date: 2016-06-05T15:00:58-04:00
 This recipe is from Radhi Ramu.
 
 ###Ingredients
+
 1. Onions - 1 big(Indian size)
 2. Tomatoes - 2 medium
 3. Garlic 4-5 cloves
@@ -26,6 +27,7 @@ This recipe is from Radhi Ramu.
 10. Chilli powder
 
 ###Procedure
+
 1. Add all ingredients except Brinjal to a bowl.
 2. Add Turmeric powder, 3/4 teaspoons of salt and 5 teaspoons of chilli powder(the chilli powder
 hides the sourness from the tamarind.)
