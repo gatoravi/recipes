@@ -68,3 +68,5 @@ quantities.
 14. Taste a teaspoon and add salt/chilli-powder/turmeric as needed.
 
 Note - the name yenna kathirikka literally means oil and brinjal. Brinjal is eggplant if you're from America.
+
+[1](../../recipe_images/yk_062016/1.jpg)
