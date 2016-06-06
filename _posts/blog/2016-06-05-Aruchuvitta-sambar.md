@@ -26,7 +26,7 @@ This recipe is from Radhi Ramu.
 - Add water, salt, turmeric and all vegetables and turmeric. Cook for 3 minutes
 until the raw smell of tamarind goes away.
 
-- Pressure coop 0.5 cup of toor dhal
+- Pressure cook 0.5 cup of toor dhal
 
 - Add cooked vegetables to th dal in the pressure cooker and cook for 2 minutes.
 
