@@ -37,7 +37,7 @@ and 4 tbsp of coconut. Grind the mixture in a mixie.
 
 #### Finale
 
-- After the vegetables are pressure cooked add the mixture to the vegetables
+- After the vegetables are pressure cooked add the masala to the vegetables
 
 - Allow to boil
 
