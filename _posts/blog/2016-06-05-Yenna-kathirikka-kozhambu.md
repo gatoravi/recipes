@@ -69,4 +69,11 @@ quantities.
 
 Note - the name yenna kathirikka literally means oil and brinjal. Brinjal is eggplant if you're from America.
 
-[1](../../recipe_images/yk_062016/1.jpg)
+### Images of the recipe
+![Brinjals soaked in the spices](../../recipe_images/yk_062016/1.jpg)
+![Mixture added to the pan](../../recipe_images/yk_062016/2.jpg)
+![Yenna kathirikka starts to cook](../../recipe_images/yk_062016/3.jpg)
+![Keep mixing the yenna kathirikka](../../recipe_images/yk_062016/4.jpg)
+![Mixing tamarind with water](../../recipe_images/yk_062016/5.jpg)
+![Add tamarind to the yenna kathirikka](../../recipe_images/yk_062016/6.jpg)
+![Turn off the stove and enjoy!](../../recipe_images/yk_062016/7.jpg)
