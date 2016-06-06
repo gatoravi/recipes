@@ -45,7 +45,9 @@ larger chunks are ok.
 
 - Cover and cook.
 
-Notes - chilli powder that we use at home is red chillis sun-dried and ground with dhaniya, this is less harmful than
+### Notes
+
+Chilli powder that we use at home is red chillis sun-dried and ground with dhaniya, this is less harmful than
 just red chillis found in the store.
 
 ### Images of the recipe

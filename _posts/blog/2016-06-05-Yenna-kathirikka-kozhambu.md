@@ -70,6 +70,7 @@ quantities.
 Note - the name yenna kathirikka literally means oil and brinjal. Brinjal is eggplant if you're from America.
 
 ### Images of the recipe
+
 ![Brinjals soaked in the spices](../../recipe_images/yk_062016/1.jpg)
 ![Mixture added to the pan](../../recipe_images/yk_062016/2.jpg)
 ![Yenna kathirikka starts to cook](../../recipe_images/yk_062016/3.jpg)
