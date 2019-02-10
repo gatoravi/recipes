@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
-excerpt: "Recipes"
+excerpt: ""
 modified: 2016-02-28T19:44:38.564948-04:00
 image:
   feature:
   credit:
   creditlink:
 ---
-Recipes to try out put together by Avi. Most of these are from my
+This site lists some recipes selected by Avi. Most of these are from my
 mom who makes some of the best food I've tasted.
