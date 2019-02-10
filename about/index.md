@@ -8,4 +8,5 @@ image:
   credit:
   creditlink:
 ---
-Recipes to try out put together by Avi.
+Recipes to try out put together by Avi. Most of these are from my
+mom who makes some of the best food I've tasted.
