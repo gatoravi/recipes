@@ -8,6 +8,7 @@ image:
   credit:
   creditlink:
 ---
-This site lists some recipes selected by Avi. Most of these are from my
-mom who makes some of the best food I've tasted. A lot of them are pasted
+This site lists some recipes selected by [Avi](http://gatoravi.github.io/)
+
+Most of these are from my mom who makes some of the best food I've tasted. A lot of them are pasted
 from Whatsapp messages and hence might not be formatted optimally.
