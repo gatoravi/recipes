@@ -11,8 +11,6 @@ date: 2016-06-05T22:22:21-04:00
 ---
 ## Lemon sambar
 
-This recipe is from Radhi Ramu.
-
 ### Method
 
 - Squeeze one lime into a cup

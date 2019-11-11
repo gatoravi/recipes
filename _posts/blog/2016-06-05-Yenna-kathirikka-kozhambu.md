@@ -11,8 +11,6 @@ date: 2016-06-05T15:00:58-04:00
 ---
 ## Yenna kathirikka kozhambu
 
-This recipe is from Radhi Ramu.
-
 ### Ingredients
 
 - Onions - 1 big(Indian size)

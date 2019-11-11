@@ -11,8 +11,6 @@ date: 2016-06-05T22:10:58-04:00
 ---
 ## Beans poriyal
 
-This recipe is from Radhi Ramu.
-
 ### Method
 
 - Add oil to kadai

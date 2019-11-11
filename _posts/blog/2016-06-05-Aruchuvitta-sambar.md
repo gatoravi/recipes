@@ -11,8 +11,6 @@ date: 2016-06-05T22:34:27-04:00
 ---
 ## Aruchuvitta sambar
 
-This recipe is from Radhi Ramu.
-
 ### Method
 
 #### Part I - the base

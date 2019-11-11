@@ -11,9 +11,7 @@ date: 2016-02-28T15:00:55-04:00
 ---
 ## Pesarattu
 
-This recipe is from Radhi Ramu.
-
-- Soak moong dal in water overnight.
+- Soak moong dal(green) in water overnight.
 
 - Blend in a blender(mixie) the next morning with
 a little bit of salt, a piece of ginger and 4 red chillies.
@@ -24,4 +22,4 @@ a little bit of salt, a piece of ginger and 4 red chillies.
 
 - Serve with ketchup/chutney on the side.
 
-Note - This is a healthy breakfast, mostly just lentils.
+Note - This is a pretty healthy breakfast, it's mostly just lentils.
