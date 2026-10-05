@@ -1,12 +1,65 @@
 ---
-layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
-search_omit: true
+layout: default
 ---
+<section class="hero">
+  <h1>A family recipe collection</h1>
+  <p>South Indian home cooking from my mom&rsquo;s kitchen &mdash; including a batch newly transcribed from her handwritten notebook. <a href="{{ '/notebook/' | relative_url }}">See the notebook &rarr;</a></p>
+</section>
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+<input type="search" id="filter" class="filter" placeholder="Search recipes&hellip;" aria-label="Search recipes" autocomplete="off">
+<p class="no-results" id="no-results">No recipes match that search.</p>
+
+{% assign notebook = site.posts | where_exp: "p", "p.categories contains 'notebook'" | sort: "order" %}
+{% assign earlier = site.posts | where_exp: "p", "p.categories contains 'blog'" %}
+
+{% if notebook.size > 0 %}
+<h2 class="section-title">Mom&rsquo;s notebook</h2>
+<p class="section-sub">Transcribed from handwritten pages. Some spots are marked <em>[unclear]</em> where the original was hard to read.</p>
+<ul class="recipe-list filter-group">
+{% for post in notebook %}
+  <li class="recipe-card" data-search="{{ post.title | downcase }} {{ post.tags | join: ' ' | downcase }}">
+    <a href="{{ post.url | relative_url }}">
+      <span class="card-title">{{ post.title }}</span>
+    </a>
+  </li>
 {% endfor %}
 </ul>
+{% endif %}
+
+<h2 class="section-title">Earlier recipes</h2>
+<p class="section-sub">Originally collected from family and WhatsApp messages.</p>
+<ul class="recipe-list filter-group">
+{% for post in earlier %}
+  <li class="recipe-card" data-search="{{ post.title | downcase }} {{ post.tags | join: ' ' | downcase }}">
+    <a href="{{ post.url | relative_url }}">
+      <span class="card-title">{{ post.title }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<script>
+  (function () {
+    var box = document.getElementById('filter');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.recipe-card'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.filter-group'));
+    var titles = Array.prototype.slice.call(document.querySelectorAll('.section-title, .section-sub'));
+    var none = document.getElementById('no-results');
+    box.addEventListener('input', function () {
+      var q = box.value.trim().toLowerCase();
+      var shown = 0;
+      cards.forEach(function (c) {
+        var match = c.getAttribute('data-search').indexOf(q) !== -1;
+        c.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      // Hide a section heading when its whole list is filtered out.
+      groups.forEach(function (g) {
+        var any = g.querySelectorAll('.recipe-card:not([style*="none"])').length > 0;
+        g.style.display = any ? '' : 'none';
+      });
+      titles.forEach(function (t) { t.style.display = q && shown === 0 ? 'none' : ''; });
+      none.style.display = shown === 0 ? 'block' : 'none';
+    });
+  })();
+</script>
