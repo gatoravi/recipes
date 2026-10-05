@@ -1,0 +1,37 @@
+---
+layout: default
+title: Mom's notebook
+---
+<article class="page">
+  <h1 class="page-title">Mom&rsquo;s notebook</h1>
+  <div class="prose">
+    <p>These recipes were transcribed from my mom&rsquo;s handwritten recipe notebook &mdash;
+    sixteen photographed pages, some stained, torn, or faded. Where a word or quantity
+    couldn&rsquo;t be read with confidence it&rsquo;s marked <em>[unclear]</em>, so it&rsquo;s
+    worth checking those against the original scans below before cooking.</p>
+
+    <p><a class="btn" href="{{ '/assets/notebook/mom-recipe-notebook-scans.pdf' | relative_url }}" download>Download all scans (PDF)</a></p>
+  </div>
+
+  <h2 class="section-title">Recipes</h2>
+  {% assign notebook = site.posts | where_exp: "p", "p.categories contains 'notebook'" | sort: "order" %}
+  <ul class="recipe-list">
+  {% for post in notebook %}
+    <li class="recipe-card">
+      <a href="{{ post.url | relative_url }}"><span class="card-title">{{ post.title }}</span></a>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <h2 class="section-title">Original pages</h2>
+  <p class="section-sub">Tap a page to see it full size.</p>
+  <div class="scan-grid">
+  {% for n in (1..16) %}
+    {% assign num = n | prepend: '0' | slice: -2, 2 %}
+    {% assign img = '/recipe_images/notebook/page-' | append: num | append: '.jpg' %}
+    <a href="{{ img | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ img | relative_url }}" alt="Notebook page {{ n }}" loading="lazy">
+    </a>
+  {% endfor %}
+  </div>
+</article>

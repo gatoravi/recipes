@@ -1,64 +1,37 @@
-# Site wide configuration
-
+# Site settings
 title: Recipes
-locale: en_US
-description:
-logo:
-url: //gatoravi.github.io/recipes
+description: A family recipe collection — South Indian home cooking from my mom's kitchen.
+author: Avinash Ramu
 
-# Jekyll configuration
+# Published at https://gatoravi.github.io/recipes
+url: "https://gatoravi.github.io"
+baseurl: "/recipes"
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
+
+plugins:
   - jekyll-sitemap
-  - jekyll-gist
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  use_coderay: false
+# Every post is a recipe
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-comments: true
-
-# Octopress
-
-# Default extensions
-post_ext: md
-page_ext: md
-
-# Found in _templates/
-post_layout: post
-page_layout: page
-
-# Format titles with titlecase?
-titlecase: true
-
-
-# Site owner
-owner:
-  name: Avinash Ramu
-  avatar:
-  email:
-  disqus-shortname:
-  twitter:
-  facebook:
-  github:
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
-  pinterest:
-  weibo:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - Gruntfile.js
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - theme-setup
+  - "*.sublime-project"
+  - "*.sublime-workspace"

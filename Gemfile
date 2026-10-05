@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.0"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "octopress"
+# Mirrors the gem set GitHub Pages builds with, so local builds match production.
+gem "github-pages", group: :jekyll_plugins
+
+# Faster local rebuilds when editing.
+gem "webrick"
